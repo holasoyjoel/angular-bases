@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 // Components
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import { ListComponent } from './heroes/list/list.component';
     AppRoutingModule,
     BrowserModule,
     CounterModule,
+    DbzModule,
     HeroesModule
   ],
   providers: [],
